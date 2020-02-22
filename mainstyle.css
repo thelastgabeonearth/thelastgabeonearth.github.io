@@ -1,0 +1,178 @@
+/* * * * * * * * * * * * * * * * *
+	Start mobile styles
+* * * * * * * * * * * * * * * * */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#masthead {
+border-style: none;		/*TEMP*/
+padding: 0;
+margin: 0;
+}
+
+#header {
+border-style: none;		/*TEMP*/
+padding: 5px;			/*TEMP*/
+}
+
+#menu {
+border-style: none;		/*TEMP*/
+padding: 0;			/*TEMP*/
+float: right;
+text-color: black;
+background-color: inherit;
+border-style: none;
+}
+
+#nav {
+border-style: none;		/*TEMP*/
+padding: 0;			/*TEMP*/
+display: none;
+}
+
+.nav {
+border-style: none none none solid;
+border-color: rgba(0,0,0,0);
+padding: 5px 15px;		/*TEMP*/
+}
+
+.nav:hover {
+border-style: none none none solid;
+border-color: #070;
+background-color: #ff0;
+}
+
+a {
+color: #070;
+text-decoration: underline;
+}
+
+a:hover {
+background-color: #ff0;
+}
+
+a:visited{
+color: #0a0;
+}
+
+#main {
+display: block;
+padding: 0 10px;
+}
+
+p {
+color: #555;
+}
+
+h2 {
+color: #000;
+font-size: 22px;
+font-weight: 300;
+}
+
+
+/* * * * * * * * * * * * * * * *
+	End mobile styles
+* * * * * * * * * * * * * * * */
+
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * *
+	Desktop styles only below this point
+* * * * * * * * * * * * * * * * * * * * * * * * * */
+
+@media only screen and (min-width: 770px) {
+
+	body {
+	background-image: url("https://images.squarespace-cdn.com/content/v1/5a54e4db6957da43d7d0a68a/1522780698081-HU4R9P4LNGBRWXG21SIL/ke17ZwdGBToddI8pDm48kGEdLrJdqAeMSJz41xzDvnl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iy8Rj2bPXFyaluz0PeKicNF9zhRDRVOFHrvSK2QoXbA_0gvHqAA-DZc3U0Z_zIy8g/DSCF0443.jpg?format=1500w");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	}
+
+	a:active {
+	background-color: inherit;
+	}
+
+	#masthead {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+	background-color: white;
+	}
+
+	#header {
+	display: flex;
+	justify-content: center;
+	}
+
+	#menu {
+	display: none;
+	}
+
+	#nav {
+	border-style: none;		/*TEMP*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	}
+
+	.nav {
+	border-style: none none solid none;
+	border-color: rgba(0,0,0,0);
+	}
+
+	.nav:hover {
+	border-style: none none solid none;
+	border-color: #070;
+	background-color: inherit;
+	}
+
+	.nav:active {
+	background-color: #ff0;
+	}
+
+	#main {
+	margin-top: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	}
+
+	.shadowbox {
+	background-color: #ffffff;
+	width: 250px;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
