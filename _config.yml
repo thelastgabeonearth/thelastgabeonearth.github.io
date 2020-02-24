@@ -5,6 +5,9 @@ collections:
   events:
     title: Events
     output: true
+  nav-links:
+    title: Nav Links
+    output: true
   posts:
     title: Posts
     output: true
