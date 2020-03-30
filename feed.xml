@@ -3,10 +3,10 @@
   <channel>
     <title>Meadville Renters United</title>
     <description>A citywide tenants organization in Meadville, PA</description>
-    <link>http://localhost:4000//</link>
-    <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Mar 2020 23:07:50 -0400</pubDate>
-    <lastBuildDate>Wed, 25 Mar 2020 23:07:50 -0400</lastBuildDate>
+    <link>http://thelastgabeonearth.github.io/</link>
+    <atom:link href="http://thelastgabeonearth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 30 Mar 2020 11:27:49 -0400</pubDate>
+    <lastBuildDate>Mon, 30 Mar 2020 11:27:49 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
   </channel>
