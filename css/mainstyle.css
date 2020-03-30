@@ -142,7 +142,7 @@ li {
 	border: 1px solid #99ff99;
 }
 
-.about p::first-line {
+.about p:first-child::first-line {
 	font-weight: bold;
 }
 
