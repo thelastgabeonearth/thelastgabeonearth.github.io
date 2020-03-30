@@ -1,0 +1,16 @@
+---
+title: Thelastgabeonearth.Github.Io
+timezone: UTC
+collections:
+  events:
+    title: Events
+    output: true
+  nav-links:
+    title: Nav Links
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
