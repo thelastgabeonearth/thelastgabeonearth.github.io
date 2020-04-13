@@ -11,12 +11,12 @@
   <meta name="description" content="A citywide tenants organization in Meadville, PA">
 
   <!-- W3.CSS being used for CSS Grid -->
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <!-- Jekyll's own stylesheet, created from \meadvillerenters\css\main.scss
     <link rel="stylesheet" href="/css/main.css">
   -->
-  <link rel="stylesheet" type="text/css" href="/css/mainstyle.css">
-  <script src="/css/navbar.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{ /css/mainstyle.css | prepend: site.baseurl | prepend: site.url }}">
+  <script src="{{ /css/navbar.js | prepend: site.baseurl | prepend: site.url }}"></script>
 
   <link rel="shortcut icon" href="http://thelastgabeonearth.github.io/favicon.ico" />
   <link rel="canonical" href="http://thelastgabeonearth.github.io/">
@@ -102,7 +102,7 @@
       <p><a>Find a community meeting near you&nbsp;&raquo;</a></p>
     </div>
 
-    
+
 
   </div>
 </div>
