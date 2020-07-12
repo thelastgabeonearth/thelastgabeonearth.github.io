@@ -3,11 +3,11 @@
   <channel>
     <title>Meadville Renters United</title>
     <description>A citywide tenants organization in Meadville, PA</description>
-    <link>http://thelastgabeonearth.github.io/</link>
-    <atom:link href="http://thelastgabeonearth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Mar 2020 20:35:29 -0400</pubDate>
-    <lastBuildDate>Mon, 30 Mar 2020 20:35:29 -0400</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/renters/</link>
+    <atom:link href="http://localhost:4000/renters/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 13 Apr 2020 13:04:08 -0400</pubDate>
+    <lastBuildDate>Mon, 13 Apr 2020 13:04:08 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
     
   </channel>
 </rss>
